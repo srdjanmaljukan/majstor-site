@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Marko Majstor — Kućne popravke Beograd',
+  title: 'Majstor Peđa — Kućne popravke Beograd',
   description: 'Profesionalne kućne popravke u Beogradu i okolini. Vodoinstalacije, elektrika, stolarija, farbanje i pločice.',
   keywords: 'majstor beograd, kucne popravke, vodoinstalater, elektricar, stolar',
 }

@@ -1,12 +1,7 @@
-// ============================================================
-// OVDJE MIJENJATE SADRŽAJ SAJTA
-// Prijatelju: samo promijenite tekst između navodnika!
-// ============================================================
-
 export const siteConfig = {
   // Osnovne informacije
-  name: 'Marko Nikolić',
-  title: 'Marko Majstor',
+  name: 'Predrag Lazović',
+  title: 'Majstor Peđa',
   tagline: 'Kućne popravke koje traju',
   subtitle: 'Brzo, uredno i po dogovoru. Više od 10 godina iskustva u sitnim i krupnijim kućnim popravkama u Beogradu i okolini.',
   location: 'Beograd i okolina',
