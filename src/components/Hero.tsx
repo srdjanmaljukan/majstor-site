@@ -2,7 +2,7 @@ import { siteConfig } from '@/lib/config'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-[#0D1B2A] overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-[#0D1B2A] overflow-hidden pt-24 pb-12 md:pt-0 md:pb-0">
       {/* Dekorativna mrežasta pozadina */}
       <div
         className="absolute inset-0 opacity-10"
@@ -54,9 +54,9 @@ export default function Hero() {
         {/* Stat brojke */}
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-fade-up stagger-5">
           {[
-            { value: '10+', label: 'godina iskustva' },
             { value: '200+', label: 'zadovoljnih klijenata' },
-            { value: '100%', label: 'tačna cijena' },
+            { value: '3', label: 'vrste usluga' },
+            { value: '100%', label: 'tačna cena' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display text-3xl text-white mb-1">{stat.value}</div>

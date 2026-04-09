@@ -1,51 +1,41 @@
+// ============================================================
+// OVDJE MIJENJATE SADRŽAJ SAJTA
+// Prijatelju: samo promijenite tekst između navodnika!
+// ============================================================
+
 export const siteConfig = {
   // Osnovne informacije
   name: 'Predrag Lazović',
   title: 'Majstor Peđa',
   tagline: 'Kućne popravke koje traju',
-  subtitle: 'Brzo, uredno i po dogovoru. Više od 10 godina iskustva u sitnim i krupnijim kućnim popravkama u Beogradu i okolini.',
+  subtitle: 'Brzo, uredno i po dogovoru. Vršimo usluge svih vrsta sitnih kućnih popravki u Beogradu i okolini.',
   location: 'Beograd i okolina',
-  phone: '+381 60 123 4567',
-  email: 'marko@primer.com',
-  experience: '10+ godina iskustva',
+  phone: '+381 60 000 0000', // <- UPISATI PRAVI BROJ
+  email: 'pedja@primer.com',
+  experience: 'Provjeren majstor',
 
   // O meni sekcija
-  about: `Zanatlija sam sa više od 10 godina iskustva u kućnim popravkama. 
-Radim brzo, čisto i uz dogovorenu cijenu — bez iznenađenja na kraju. 
-Dostupan sam na području Beograda i okoline, od ponedeljka do subote. 
+  about: `Zanatlija sam sa dugogodišnjim iskustvom u sitnim i krupnijim kućnim popravkama. 
+Radim brzo, čisto i uz dogovorenu cenu — bez iznenađenja na kraju. 
+Dostupan sam na području Beograda i okoline. 
 Svaki posao završim kako bih i za svoju kuću uradio.`,
 
   // Usluge (možete dodati ili ukloniti)
   services: [
     {
-      icon: '🔧',
-      name: 'Vodoinstalacije',
-      description: 'Zamjena cijevi, popravka slavina, čišćenje odvoda, novi sanitarni čvorovi.',
-    },
-    {
       icon: '⚡',
-      name: 'Elektrika',
-      description: 'Montaža utičnica i prekidača, nova rasvjeta, osigurači.',
+      name: 'Električne popravke',
+      description: 'Zamena osigurača, utičnica i prekidača, zamena fasunga, montaža lustera i plafonjera, zamena grejača bojlera i čišćenje kamenca, zamena grejača veš mašina.',
     },
     {
-      icon: '🪚',
-      name: 'Stolarija',
-      description: 'Popravka i montaža vrata i prozora, police, namještaj po mjeri.',
+      icon: '🔧',
+      name: 'Vodovodne popravke',
+      description: 'Zamena slavina i tuš baterija, popravka vodokotlića, zamena ventila i creva vodokotlića, montaža/demontaža vodokotlića, zamena creva i sigurnosnog ventila bojlera, zamena sifona sudopere, lavaboa i kade.',
     },
     {
-      icon: '🖌️',
-      name: 'Farbanje',
-      description: 'Bojenje zidova i plafona, gletovanje, priprema površina.',
-    },
-    {
-      icon: '🏠',
-      name: 'Keramika i pločice',
-      description: 'Postavljanje podnih i zidnih pločica, fugovanje, silikoni.',
-    },
-    {
-      icon: '🔨',
-      name: 'Sitni radovi',
-      description: 'Montaža namještaja, zavjesa, roletni, kačenje slika i TV-a.',
+      icon: '🌿',
+      name: 'Baštenski radovi',
+      description: 'Košenje trave, orezivanje žive ograde, održavanje dvorišta.',
     },
   ],
 
