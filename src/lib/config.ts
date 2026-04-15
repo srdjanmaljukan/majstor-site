@@ -10,7 +10,7 @@ export const siteConfig = {
   tagline: 'Kućne popravke koje traju',
   subtitle: 'Brzo, uredno i po dogovoru. Vršimo usluge svih vrsta sitnih kućnih popravki u Beogradu i okolini.',
   location: 'Beograd i okolina',
-  phone: '+381 60 000 0000', // <- UPISATI PRAVI BROJ
+  phone: '+381 642139739', // <- UPISATI PRAVI BROJ
   email: 'pedja@primer.com',
   experience: 'Provjeren majstor',
 
